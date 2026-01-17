@@ -1,0 +1,204 @@
+{
+  "mappings": {
+    "Product 77733829": "https://images.deliveryhero.io/image/fd-tr/Products/77733829.jpg",
+    "Product 77733826": "https://images.deliveryhero.io/image/fd-tr/Products/77733826.jpg",
+    "Product 77772038": "https://images.deliveryhero.io/image/fd-tr/Products/77772038.jpg",
+    "Product 77733828": "https://images.deliveryhero.io/image/fd-tr/Products/77733828.jpg",
+    "Product 77771992": "https://images.deliveryhero.io/image/fd-tr/Products/77771992.jpg",
+    "Product 77735863": "https://images.deliveryhero.io/image/fd-tr/Products/77735863.jpg",
+    "Product 77733816": "https://images.deliveryhero.io/image/fd-tr/Products/77733816.jpg",
+    "Product 77735864": "https://images.deliveryhero.io/image/fd-tr/Products/77735864.jpg",
+    "Product 77772028": "https://images.deliveryhero.io/image/fd-tr/Products/77772028.jpg",
+    "Product 77786719": "https://images.deliveryhero.io/image/fd-tr/Products/77786719.jpg",
+    "Product 77771660": "https://images.deliveryhero.io/image/fd-tr/Products/77771660.jpg",
+    "Product 77733827": "https://images.deliveryhero.io/image/fd-tr/Products/77733827.jpg",
+    "Product 77771970": "https://images.deliveryhero.io/image/fd-tr/Products/77771970.jpg",
+    "Product 77733817": "https://images.deliveryhero.io/image/fd-tr/Products/77733817.jpg",
+    "Product 77772121": "https://images.deliveryhero.io/image/fd-tr/Products/77772121.jpg",
+    "Product 77772854": "https://images.deliveryhero.io/image/fd-tr/Products/77772854.jpg",
+    "Product 77733819": "https://images.deliveryhero.io/image/fd-tr/Products/77733819.jpg",
+    "Product 77771986": "https://images.deliveryhero.io/image/fd-tr/Products/77771986.jpg",
+    "Product 77771860": "https://images.deliveryhero.io/image/fd-tr/Products/77771860.jpg",
+    "Product 77771990": "https://images.deliveryhero.io/image/fd-tr/Products/77771990.jpg",
+    "Product 77771995": "https://images.deliveryhero.io/image/fd-tr/Products/77771995.jpg",
+    "Product 77733820": "https://images.deliveryhero.io/image/fd-tr/Products/77733820.jpg",
+    "Product 77772011": "https://images.deliveryhero.io/image/fd-tr/Products/77772011.jpg",
+    "Product 77733825": "https://images.deliveryhero.io/image/fd-tr/Products/77733825.jpg",
+    "Product 77771932": "https://images.deliveryhero.io/image/fd-tr/Products/77771932.jpg",
+    "Product 77733815": "https://images.deliveryhero.io/image/fd-tr/Products/77733815.jpg",
+    "Product 77735862": "https://images.deliveryhero.io/image/fd-tr/Products/77735862.jpg",
+    "Product 77786633": "https://images.deliveryhero.io/image/fd-tr/Products/77786633.jpg",
+    "Product 77733818": "https://images.deliveryhero.io/image/fd-tr/Products/77733818.jpg",
+    "Product 77772042": "https://images.deliveryhero.io/image/fd-tr/Products/77772042.jpg",
+    "Product 77772009": "https://images.deliveryhero.io/image/fd-tr/Products/77772009.jpg",
+    "Product 77734759": "https://images.deliveryhero.io/image/fd-tr/Products/77734759.jpg",
+    "Product 77771654": "https://images.deliveryhero.io/image/fd-tr/Products/77771654.jpg"
+  },
+  "products": [
+    {
+      "id": "77733829",
+      "name": "Product 77733829",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77733829.jpg"
+    },
+    {
+      "id": "77733826",
+      "name": "Product 77733826",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77733826.jpg"
+    },
+    {
+      "id": "77772038",
+      "name": "Product 77772038",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77772038.jpg"
+    },
+    {
+      "id": "77733828",
+      "name": "Product 77733828",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77733828.jpg"
+    },
+    {
+      "id": "77771992",
+      "name": "Product 77771992",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77771992.jpg"
+    },
+    {
+      "id": "77735863",
+      "name": "Product 77735863",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77735863.jpg"
+    },
+    {
+      "id": "77733816",
+      "name": "Product 77733816",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77733816.jpg"
+    },
+    {
+      "id": "77735864",
+      "name": "Product 77735864",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77735864.jpg"
+    },
+    {
+      "id": "77772028",
+      "name": "Product 77772028",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77772028.jpg"
+    },
+    {
+      "id": "77786719",
+      "name": "Product 77786719",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77786719.jpg"
+    },
+    {
+      "id": "77771660",
+      "name": "Product 77771660",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77771660.jpg"
+    },
+    {
+      "id": "77733827",
+      "name": "Product 77733827",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77733827.jpg"
+    },
+    {
+      "id": "77771970",
+      "name": "Product 77771970",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77771970.jpg"
+    },
+    {
+      "id": "77733817",
+      "name": "Product 77733817",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77733817.jpg"
+    },
+    {
+      "id": "77772121",
+      "name": "Product 77772121",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77772121.jpg"
+    },
+    {
+      "id": "77772854",
+      "name": "Product 77772854",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77772854.jpg"
+    },
+    {
+      "id": "77733819",
+      "name": "Product 77733819",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77733819.jpg"
+    },
+    {
+      "id": "77771986",
+      "name": "Product 77771986",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77771986.jpg"
+    },
+    {
+      "id": "77771860",
+      "name": "Product 77771860",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77771860.jpg"
+    },
+    {
+      "id": "77771990",
+      "name": "Product 77771990",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77771990.jpg"
+    },
+    {
+      "id": "77771995",
+      "name": "Product 77771995",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77771995.jpg"
+    },
+    {
+      "id": "77733820",
+      "name": "Product 77733820",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77733820.jpg"
+    },
+    {
+      "id": "77772011",
+      "name": "Product 77772011",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77772011.jpg"
+    },
+    {
+      "id": "77733825",
+      "name": "Product 77733825",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77733825.jpg"
+    },
+    {
+      "id": "77771932",
+      "name": "Product 77771932",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77771932.jpg"
+    },
+    {
+      "id": "77733815",
+      "name": "Product 77733815",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77733815.jpg"
+    },
+    {
+      "id": "77735862",
+      "name": "Product 77735862",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77735862.jpg"
+    },
+    {
+      "id": "77786633",
+      "name": "Product 77786633",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77786633.jpg"
+    },
+    {
+      "id": "77733818",
+      "name": "Product 77733818",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77733818.jpg"
+    },
+    {
+      "id": "77772042",
+      "name": "Product 77772042",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77772042.jpg"
+    },
+    {
+      "id": "77772009",
+      "name": "Product 77772009",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77772009.jpg"
+    },
+    {
+      "id": "77734759",
+      "name": "Product 77734759",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77734759.jpg"
+    },
+    {
+      "id": "77771654",
+      "name": "Product 77771654",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/77771654.jpg"
+    }
+  ]
+}

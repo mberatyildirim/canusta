@@ -1,0 +1,30 @@
+{
+  "mappings": {},
+  "all_products": [
+    {
+      "id": "34",
+      "name": "Istanbul",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/34.jpg"
+    },
+    {
+      "id": "329911",
+      "name": "Ev Yemekleri",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/329911.jpg"
+    },
+    {
+      "id": "1071",
+      "name": "Kebap & Türk Mutfağı",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/1071.jpg"
+    },
+    {
+      "id": "1067",
+      "name": "Ev Yemekleri",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/1067.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Restoran Teslimatlı",
+      "image": "https://images.deliveryhero.io/image/fd-tr/Products/2.jpg"
+    }
+  ]
+}

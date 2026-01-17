@@ -1,0 +1,153 @@
+{
+  "categories": [
+    {
+      "name": "Çorbalar",
+      "items": [
+        "Mercimek Çorbası",
+        "Tavuk Suyu Çorbası",
+        "Kelle Paça Çorbası",
+        "Ayak Paça Çorbası",
+        "İşkembe Çorbası"
+      ]
+    },
+    {
+      "name": "Fırın Ürünleri",
+      "items": [
+        "Lahmacun",
+        "Lahmacun (Kaşarlı)",
+        "Antep Çullama",
+        "Kıymalı Yumurtalı Pide",
+        "Kaşarlı Pide",
+        "Kıymalı Pide",
+        "Kaşarlı Sucuklu Pide",
+        "Kıymalı Kaşarlı Pide",
+        "Sucuklu Yumurtalı Pide",
+        "Kuşbaşılı Pide",
+        "Sebzeli Pide",
+        "Kuşbaşılı Kaşarlı Pide",
+        "Kavurmalı Pide",
+        "Kavurmalı Kaşarlı Pide"
+      ]
+    },
+    {
+      "name": "Kebaplar & Izgaralar",
+      "items": [
+        "Beyti Kebap (Açık)",
+        "Sebzeli Kebap",
+        "Sarma Beyti",
+        "Adana Kebap (Acılı)",
+        "Urfa Kebap (acısız)",
+        "Domatesli Kebap",
+        "Patlıcanlı Kebap",
+        "Tavuk Şiş",
+        "Yaprak Kanat",
+        "Kuzu Şiş",
+        "Çöp Şiş",
+        "Dana Şiş",
+        "Haşhaş Kebabı",
+        "Fıstıklı Kebap",
+        "Kuzu Pirzola",
+        "Izgara Köfte",
+        "Tavuk Pirzola",
+        "Sarımsak Kebabı",
+        "Alinazik Kebap (Kıymadan)",
+        "Alinazik Kebap (Kuzu Şişten)",
+        "Yoğurtlu Kebap",
+        "Altı Ezmeli Kebap",
+        "Ciğer Şiş",
+        "Karışık Kebap (Tek kişilik)"
+      ]
+    },
+    {
+      "name": "Tava Çeşitleri",
+      "items": [
+        "Kilis Tava",
+        "Fırında Güveç",
+        "Et Sote",
+        "Tavuk Sote",
+        "Tavuk Sac Tava",
+        "Et Sac Tava",
+        "Soya Soslu Tavuk",
+        "Çoban Kavurma"
+      ]
+    },
+    {
+      "name": "Dürümler",
+      "items": [
+        "Urfa Dürüm",
+        "Adana Kebap Dürüm (Acılı)",
+        "Tavuk Şiş Dürüm",
+        "Ciğer Şiş Dürüm",
+        "Kuzu Şiş Dürüm",
+        "Çöp Şiş Dürüm",
+        "Dana Şiş Dürüm",
+        "Beyti Dürüm"
+      ]
+    },
+    {
+      "name": "Salatalar",
+      "items": [
+        "Çömlek Manda Yoğurt",
+        "Çoban Salata",
+        "Yeşil Salata",
+        "Can Haydar Salata",
+        "Gavurdağı Salata"
+      ]
+    },
+    {
+      "name": "Mezeler",
+      "items": [
+        "Acılı Ezme"
+      ]
+    },
+    {
+      "name": "Yan Ürünler",
+      "items": [
+        "Cacık",
+        "Patates Kızartması",
+        "Kızartma İçli Köfte (Adet)",
+        "Çiğ Köfte"
+      ]
+    },
+    {
+      "name": "Tatlılar",
+      "items": [
+        "Fındıklı Fırın Sütlaç",
+        "Kabak Tatlısı",
+        "Künefe",
+        "Kaymaklı Künefe",
+        "Katmer",
+        "Kaymaklı Katmer"
+      ]
+    },
+    {
+      "name": "İçecekler",
+      "items": [
+        "Su (50 cl.)",
+        "Coca-Cola (20 cl.)",
+        "Ayran (30 cl.)",
+        "Şalgam Suyu (Acılı) (30 cl.)",
+        "Fanta (30 cl.)",
+        "Coca Cola",
+        "Fanta (1 L.)",
+        "Fanta (33 cl.)",
+        "Coca-Cola (1 L.)",
+        "Şalgam Suyu (Acısız)"
+      ]
+    },
+    {
+      "name": "Kiloluk Ürünler (Pişirilmiş)",
+      "items": [
+        "Tavuk Pirzola (1 kg.) (Pişirilmiş)",
+        "Tavuk Kanat (500 gr.) (Pişirilmiş)",
+        "Tavuk Şiş (1 kg.) (Pişirilmiş)",
+        "Tavuk Şiş (500 gr.)",
+        "Tavuk Pirzola (500 gr.) (Pişirilmiş)",
+        "Yaprak Kanat (1 kg.) (Pişirilmiş)",
+        "Yaprak Kanat (500 gr.) (Pişirilmiş)",
+        "Izgara Köfte (1 kg.) (Pişirilmiş)",
+        "Izgara Köfte (500 gr.) (Pişirilmiş)"
+      ]
+    }
+  ]
+}
