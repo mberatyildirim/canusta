@@ -8,11 +8,11 @@ export default function LocationMap() {
   return (
     <section className="py-16 bg-white">
       {/* Container - içeriği merkezler */}
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container mx-auto px-4 max-w-6xl">
         {/* Başlık bölümü */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            İletişim
+            Konumumuz
           </h2>
           <div className="w-32 h-1 bg-yellow-400 mx-auto mb-4"></div>
           <p className="text-gray-600 text-lg">
@@ -20,9 +20,14 @@ export default function LocationMap() {
           </p>
         </div>
 
-        {/* İletişim bilgileri - merkezi layout */}
-        <div className="bg-gray-50 rounded-lg shadow-md p-8 md:p-12">
-          <div className="space-y-6">
+        {/* Grid layout - mobile'da üst üste, desktop'ta yan yana */}
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Sol kolon - İletişim bilgileri */}
+          <div className="bg-gray-50 rounded-lg shadow-md p-8 md:p-12">
+            <h3 className="text-2xl font-bold text-gray-800 mb-6">
+              İletişim Bilgileri
+            </h3>
+            <div className="space-y-6">
             {/* Telefon numaraları */}
             <div className="flex items-start">
               <svg className="w-6 h-6 text-yellow-500 mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -103,6 +108,41 @@ export default function LocationMap() {
                   />
                 </a>
               </div>
+            </div>
+            </div>
+          </div>
+
+          {/* Sağ kolon - Google Maps haritası */}
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <h3 className="text-2xl font-bold text-gray-800 p-6 pb-4">
+              Haritada Konumumuz
+            </h3>
+            {/* Google Maps iframe - haritayı gösterir - Place ID ile direkt konum (yol tarifi değil) */}
+            <div className="h-96 w-full">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3009.1234567890!2d28.1234567890!3d41.1234567890!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa1b284645373%3A0xed57a13f571d6d84!2sCan+Haydar+Usta!5e0!3m2!1str!2str!4v1705488000000!5m2!1str!2str"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Can Haydar Usta Konum"
+              ></iframe>
+            </div>
+            {/* Harita altında adres linki */}
+            <div className="p-4 bg-gray-50">
+              <a
+                href="https://www.google.com/maps?hl=en&gl=tr&um=1&ie=UTF-8&fb=1&sa=X&ftid=0x14caa1b284645373:0xed57a13f571d6d84"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-yellow-500 hover:text-yellow-600 font-medium inline-flex items-center"
+              >
+                Haritada Aç
+                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
             </div>
           </div>
         </div>

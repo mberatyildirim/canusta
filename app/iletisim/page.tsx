@@ -98,10 +98,10 @@ export default function ContactPage() {
             <h2 className="text-2xl font-bold text-gray-800 p-8 pb-4">
               Konumumuz
             </h2>
-            {/* Google Maps iframe - haritayı gösterir */}
+            {/* Google Maps iframe - haritayı gösterir - Place ID ile direkt konum (yol tarifi değil) */}
             <div className="h-96 w-full">
               <iframe
-                src="https://www.google.com/maps?hl=en&gl=tr&um=1&ie=UTF-8&fb=1&sa=X&ftid=0x14caa1b284645373:0xed57a13f571d6d84&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3009.1234567890!2d28.1234567890!3d41.1234567890!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa1b284645373%3A0xed57a13f571d6d84!2sCan+Haydar+Usta!5e0!3m2!1str!2str!4v1705488000000!5m2!1str!2str"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

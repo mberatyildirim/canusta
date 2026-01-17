@@ -20,6 +20,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Can Haydar Usta - Geleneksel Lezzetler, Modern Sunum",
   description: "Avcılar'da geleneksel Türk mutfağının en lezzetli örneklerini sunan restoran. Kebaplar, pide çeşitleri, çorbalar ve daha fazlası.",
+  icons: {
+    icon: [
+      { url: '/logo.png', type: 'image/png' },
+      { url: '/logo.png', type: 'image/png', sizes: '32x32' },
+      { url: '/logo.png', type: 'image/png', sizes: '16x16' },
+    ],
+    apple: '/logo.png',
+    shortcut: '/logo.png',
+  },
 };
 
 // Root layout - tüm sayfaların ana şablonu
