@@ -21,11 +21,11 @@ export default function AboutPreview() {
 
           {/* İçerik bölümü - grid layout ile görsel ve metin yan yana */}
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            {/* Görsel bölümü - kebap resmi, local görsel */}
+            {/* Görsel bölümü - mekan fotoğrafı, restoran atmosferini gösterir */}
             <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/images/sarma beyti.webp"
-                alt="Sarma Beyti Kebap"
+                src="/mekan foto 1.jpeg"
+                alt="Can Haydar Usta Mekanı"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"

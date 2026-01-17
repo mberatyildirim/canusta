@@ -2,6 +2,8 @@
  * Hakkımızda sayfası - Restoran hakkında detaylı bilgiler
  * Restoranın hikayesi, misyonu ve değerleri hakkında bilgi verir
  */
+import Image from 'next/image'; // Next.js Image bileşeni - optimize edilmiş görsel gösterimi için
+
 export default function AboutPage() {
   return (
     <div className="py-12 bg-gray-50 min-h-screen">
@@ -25,6 +27,30 @@ export default function AboutPage() {
             <p className="text-gray-600 text-lg">
               Geleneksel Lezzetler, Modern Sunum
             </p>
+          </div>
+
+          {/* Mekan fotoğrafları - restoran atmosferini gösterir, grid layout ile yan yana */}
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            {/* İlk mekan fotoğrafı - restoranın bir bölümünü gösterir */}
+            <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="/mekan foto 1.jpeg"
+                alt="Can Haydar Usta Mekanı - İç Görünüm 1"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+            {/* İkinci mekan fotoğrafı - restoranın başka bir bölümünü gösterir */}
+            <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="/mekan foto 2.jpeg"
+                alt="Can Haydar Usta Mekanı - İç Görünüm 2"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
           </div>
 
           {/* Metin içeriği */}

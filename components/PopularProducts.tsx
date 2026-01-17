@@ -20,15 +20,16 @@ export default function PopularProducts() {
   }, []);
 
   // Popüler ürünler - kategorilere göre seçilmiş en iyi ürünler
-  // 2 çorba, 3 kebap, 1 pide, 1 dürüm, 1 tatlı
+  // 2 çorba, 4 kebap, 1 pide, 1 dürüm, 1 tatlı
   const popularProducts = [
     // Çorbalar (2 ürün)
     { name: 'Kelle Paça Çorbası', category: 'Çorbalar' },
     { name: 'Mercimek Çorbası', category: 'Çorbalar' },
-    // Kebaplar (3 ürün)
+    // Kebaplar (4 ürün)
     { name: 'Sarma Beyti', category: 'Kebaplar & Izgaralar' },
     { name: 'Adana Kebap (Acılı)', category: 'Kebaplar & Izgaralar' },
     { name: 'Altı Ezmeli Kebap', category: 'Kebaplar & Izgaralar' },
+    { name: 'Diyarbakır Ciğer Şiş', category: 'Kebaplar & Izgaralar' },
     // Pide (1 ürün)
     { name: 'Antep Çullama', category: 'Fırın Ürünleri' },
     // Dürüm (1 ürün)

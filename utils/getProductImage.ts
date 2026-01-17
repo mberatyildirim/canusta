@@ -42,6 +42,7 @@ const productImageMap: Record<string, string> = {
   "Alinazik Kebap (Kıymadan)": "/images/ali nazik kebap (kıymalı).webp",
   "Alinazik Kebap (Kuzu Şişten)": "/images/ali nazik kebap (şişten).webp",
   "Altı Ezmeli Kebap": "/images/altı ezmeli kebap.webp",
+  "Diyarbakır Ciğer Şiş": "/images/diyarbakir sis.jpeg",
   
   // Tava Çeşitleri
   "Et Sote": "/images/et sote.webp",
