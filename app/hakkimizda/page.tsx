@@ -51,6 +51,26 @@ export default function AboutPage() {
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
+            {/* Üçüncü mekan fotoğrafı - restoranın iç görünümü */}
+            <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="/ic mekan photo 1.webp"
+                alt="Can Haydar Usta Mekanı - İç Görünüm 3"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+            {/* Dördüncü mekan fotoğrafı - restoranın iç görünümü */}
+            <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="/ic mekan photo 2.webp"
+                alt="Can Haydar Usta Mekanı - İç Görünüm 4"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
           </div>
 
           {/* Metin içeriği */}

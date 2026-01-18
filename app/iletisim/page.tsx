@@ -77,16 +77,16 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Çalışma saatleri (opsiyonel - şimdilik placeholder) */}
+              {/* Çalışma saatleri - logo renklerine uygun */}
               <div className="flex items-start">
                 {/* Saat ikonu */}
-                <svg className="w-6 h-6 text-red-600 mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-yellow-500 mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <div>
                   <h3 className="font-semibold text-gray-800 mb-2">Çalışma Saatleri</h3>
                   <p className="text-gray-700">
-                    Her gün: 10:00 - 23:00
+                    Her gün: 07:00 - 02:00
                   </p>
                 </div>
               </div>
@@ -146,20 +146,36 @@ export default function ContactPage() {
             </p>
             <p className="text-gray-700 mt-4">
               <strong>Online Sipariş:</strong>{' '}
-              <a 
-                href="https://www.yemeksepeti.com/restaurant/dotr/can-haydar-usta" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center bg-white px-4 py-2 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 border-2 border-green-500"
-              >
-                <Image
-                  src="https://www.marketingturkiye.com.tr/wp-content/uploads/2021/09/yemeksepeti-logo1.jpg"
-                  alt="Yemeksepeti"
-                  width={120}
-                  height={40}
-                  className="h-8 w-auto rounded-md"
-                />
-              </a>
+              <div className="flex flex-wrap gap-3 mt-2">
+                <a 
+                  href="https://www.yemeksepeti.com/restaurant/dotr/can-haydar-usta" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-white px-4 py-2 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 border-2 border-green-500"
+                >
+                  <Image
+                    src="https://www.marketingturkiye.com.tr/wp-content/uploads/2021/09/yemeksepeti-logo1.jpg"
+                    alt="Yemeksepeti"
+                    width={120}
+                    height={40}
+                    className="h-8 w-auto rounded-md"
+                  />
+                </a>
+                <a 
+                  href="https://getir.com/yemek/restoran/can-haydar-usta-avcilar-mustafa-kemalpasa-mah-avcilar-istanbul/"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-white px-4 py-2 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 border-2 border-purple-500"
+                >
+                  <Image
+                    src="https://agtteknik.com/wp-content/uploads/2024/02/getir-unicorn.jpeg"
+                    alt="Getir"
+                    width={120}
+                    height={40}
+                    className="h-8 w-auto rounded-md"
+                  />
+                </a>
+              </div>
             </p>
           </div>
         </div>

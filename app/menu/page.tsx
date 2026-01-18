@@ -89,20 +89,36 @@ export default function MenuPage() {
             E-posta: <a href="mailto:canhaydarusta@gmail.com" className="underline font-semibold hover:text-gray-800">canhaydarusta@gmail.com</a>
           </p>
           <p className="text-lg">
-            <a 
-              href="https://www.yemeksepeti.com/restaurant/dotr/can-haydar-usta" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center bg-white px-4 py-2 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 border-2 border-green-500"
-            >
-              <Image
-                src="https://www.marketingturkiye.com.tr/wp-content/uploads/2021/09/yemeksepeti-logo1.jpg"
-                alt="Yemeksepeti"
-                width={120}
-                height={40}
-                className="h-8 w-auto rounded-md"
-              />
-            </a>
+            <div className="flex flex-wrap justify-center gap-3">
+              <a 
+                href="https://www.yemeksepeti.com/restaurant/dotr/can-haydar-usta" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-white px-4 py-2 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 border-2 border-green-500"
+              >
+                <Image
+                  src="https://www.marketingturkiye.com.tr/wp-content/uploads/2021/09/yemeksepeti-logo1.jpg"
+                  alt="Yemeksepeti"
+                  width={120}
+                  height={40}
+                  className="h-8 w-auto rounded-md"
+                />
+              </a>
+              <a 
+                href="https://getir.com/yemek/restoran/can-haydar-usta-avcilar-mustafa-kemalpasa-mah-avcilar-istanbul/"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-white px-4 py-2 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 border-2 border-purple-500"
+              >
+                <Image
+                  src="https://agtteknik.com/wp-content/uploads/2024/02/getir-unicorn.jpeg"
+                  alt="Getir"
+                  width={120}
+                  height={40}
+                  className="h-8 w-auto rounded-md"
+                />
+              </a>
+            </div>
           </p>
         </div>
       </div>

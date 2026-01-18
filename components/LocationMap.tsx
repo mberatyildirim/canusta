@@ -85,28 +85,46 @@ export default function LocationMap() {
               </div>
             </div>
 
-            {/* Yemeksepeti linki - online sipariş için, gerçek logo ile */}
+            {/* Online sipariş linkleri - Yemeksepeti ve Getir */}
             <div className="flex items-start pt-4 border-t border-gray-200">
               <svg className="w-6 h-6 text-yellow-500 mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
               </svg>
               <div>
                 <h4 className="font-semibold text-gray-800 mb-2">Online Sipariş</h4>
-                <a
-                  href="https://www.yemeksepeti.com/restaurant/dotr/can-haydar-usta"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center bg-white px-4 py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 border-2 border-green-500"
-                >
-                  {/* Yemeksepeti logosu - gerçek logo URL'i */}
-                  <Image
-                    src="https://www.marketingturkiye.com.tr/wp-content/uploads/2021/09/yemeksepeti-logo1.jpg"
-                    alt="Yemeksepeti"
-                    width={120}
-                    height={40}
-                    className="h-8 w-auto rounded-md"
-                  />
-                </a>
+                {/* Yemeksepeti ve Getir linkleri yan yana */}
+                <div className="flex flex-wrap gap-3">
+                  <a
+                    href="https://www.yemeksepeti.com/restaurant/dotr/can-haydar-usta"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center bg-white px-4 py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 border-2 border-green-500"
+                  >
+                    {/* Yemeksepeti logosu - gerçek logo URL'i */}
+                    <Image
+                      src="https://www.marketingturkiye.com.tr/wp-content/uploads/2021/09/yemeksepeti-logo1.jpg"
+                      alt="Yemeksepeti"
+                      width={120}
+                      height={40}
+                      className="h-8 w-auto rounded-md"
+                    />
+                  </a>
+                  <a
+                    href="https://getir.com/yemek/restoran/can-haydar-usta-avcilar-mustafa-kemalpasa-mah-avcilar-istanbul/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center bg-white px-4 py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 border-2 border-purple-500"
+                  >
+                    {/* Getir logosu - gerçek logo URL'i */}
+                    <Image
+                      src="https://agtteknik.com/wp-content/uploads/2024/02/getir-unicorn.jpeg"
+                      alt="Getir"
+                      width={120}
+                      height={40}
+                      className="h-8 w-auto rounded-md"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             </div>

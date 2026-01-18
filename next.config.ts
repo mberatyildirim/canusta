@@ -23,6 +23,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'agtteknik.com', // Getir logosu için
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
